@@ -44,4 +44,4 @@ def application(request):
 
 if __name__ == '__main__':
     matcher = re.compile('\[\d+\]: (.+?) (for|from)')
-    run_simple('127.0.0.1', 8080, application)
+    run_simple('0.0.0.0', 8080, application)
